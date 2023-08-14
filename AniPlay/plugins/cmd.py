@@ -9,7 +9,7 @@ from AniPlay.plugins.stats import day, over
 @app.on_message(filters.command(['start', '']))
 async def start(_, message: Message):
     try:
-        await message.reply_text('**जय श्री राम🚩I‘m Anime Search Bot,Creator- @StupidBoi69.\n\nYou must join our Updates Channel and Search Group\n\nUpdates Channel :\n@Anime_Ongoing_Dub\nSearch Group :\n@AnimeDownloaderChat_Bot\n\nHit /help to find out more about how to use me to my full potential.** ')
+        await message.reply_text('**जय श्री राम🚩 I‘m Anime Search Bot,\nCreator- @StupidBoi69.\n\nYou must join our Updates Channel and Search Group\n\nUpdates Channel :\n@Anime_Ongoing_Dub\nSearch Group :\n@AnimeDownloaderChat_Bot\n\nHit /help to find out more about how to use me to my full potential.** ')
     except:
         return
 
