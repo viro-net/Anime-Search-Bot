@@ -23,13 +23,13 @@ async def searchCMD(_, message: Message):
         user = message.from_user.id
         query = ' '.join(message.command[1:])
         if query == '':
-            return await message.reply_text('Give me something to search; after cmd =⁠_⁠= ')
+            return await message.reply_text('Give me something to search')
         data = AnimeDex.search(query)
         button = BTN.searchCMD(user, data, query)
         await message.reply_text(QUERY.format(query), reply_markup=button)
     except Exception as e:
         try:
-            return await message.reply_text('**Anime Not Found...**\n\nProbably Incorrect Name, Try again\n\nOr visit-\n')
+            return await message.reply_text('**Anime Not Found...**\n\nProbably Incorrect Name, Try again\n\nOr visit-\nnew.animedex.live')
         except:
             return
 
