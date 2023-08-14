@@ -9,7 +9,7 @@ from AniPlay.plugins.stats import day, over
 @app.on_message(filters.command(['start', '']))
 async def start(_, message: Message):
     try:
-        await message.reply_text('जय श्री राम🚩,\n\n**I‘m Anime Search Bot, Creator- @StupidBoi69.**\n\nClick on /help to learn **How to use?** ')
+        await message.reply_text('**जय श्री राम🚩I‘m Anime Search Bot,Creator- @StupidBoi69.\n\nYou must join our Updates Channel and Search Group\n\nUpdates Channel :\n@Anime_Ongoing_Dub\nSearch Group :\n@AnimeDownloaderChat_Bot\n\nHit /help to find out more about how to use me to my full potential.** ')
     except:
         return
 
@@ -29,7 +29,7 @@ async def searchCMD(_, message: Message):
         await message.reply_text(QUERY.format(query), reply_markup=button)
     except Exception as e:
         try:
-            return await message.reply_text('**Anime Not Found...**\n\nProbably Incorrect Name, Try again')
+            return await message.reply_text('**Anime Not Found...**\n\nProbably Incorrect Name, Try again\n\nOr visit-\n')
         except:
             return
 
@@ -63,6 +63,6 @@ async def stats2(_, message: Message):
 @app.on_message(filters.command(['help', '']))
 async def help(_, message: Message):
     try:
-        await message.reply_text('To Get Started, Simply Use\n\n(**/search ‹anime name›,\n/find ‹anime name›,\n/iwant ‹anime name›.**)\n\n(**HINT: Choose Server5 for Downloading.**')
+        await message.reply_text('To Get Started, Simply Use and remove this '‹' and '›' then type your anime name,\n\n(**/iwant ‹type anime name>,\n/search ‹type anime name›,\n/anime ‹type anime name›.**\n\n(**HINT: Choose Server5 for Downloading.**')
     except:
         return
