@@ -1,0 +1,9 @@
+# Demo :
+# API_ID = '123456'
+# API_HASH = '826343sgfajhdfhdb916jgfgf395bbf1532'
+# TOKEN = '4213543775:AsfjgfgdsdhfsdjhgjhfgsjgY'
+
+
+API_ID = '25695562'
+API_HASH = '0b691c3e86603a7e34aae0b5927d725a'
+TOKEN = '6105757517:AAH3v35c-pXvGuHiqQ98G5Fn5gGt75JoitQ'
